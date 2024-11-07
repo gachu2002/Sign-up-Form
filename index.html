@@ -7,6 +7,78 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-logo">
+            <img src="assets/images/logo.png" alt="logo">
+            <span>ODIN</span>
+        </div>
+        <footer>
+            Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/s/photos/odin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </footer>
+    </div>
+
+    <!-- Sign Up Section -->
+    <div class="signup">
+        <!-- Sign Up Header -->
+        <p class="para1">This is not a real online service! You know you need
+            something like this in your life to help you realize your 
+            deepest dreams.
+        </p>
+        <p class="para2">Sign up <em>now</em> to get started.</p>
+        <p class="para3">
+            You <em>know</em> you want to.
+        </p>
+
+        <!-- Sign Up Form -->
+        <form action="#" method="post" class="signup-form">
+            <h2>Let's do this!</h2>
+            
+            <div class="form-content">
+                <!-- Name Section -->
+                <div class="form-group">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+
+                <!-- Email Section -->
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <!-- Phone Number Section -->
+                <div class="form-group">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number" required>
+                </div>
+
+                <!-- Password Section -->
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required>
+                </div>  
+                <div class="form-group">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" required>
+                </div>
+            </div>
+            
+
+            <!-- Sign Up Button -->
+            <div class="button">
+                <button type="submit">Create Account</button>
+            </div>
+            
+        </form>
+
+        <!-- Log In Link -->
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
 </body>
 </html>
