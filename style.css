@@ -95,6 +95,10 @@ footer a:visited {
     width: 60ch;
 }
 
+.para1 {
+    margin-top: 20px;
+}
+
 .para3 {
     margin-top: 15px;
     margin-bottom: 40px;
@@ -142,7 +146,7 @@ input {
     padding: 0.5rem;
     border: 1.5px solid var(--primary-input-border-color);
     border-radius: 5px;
-    width: 350px;
+    width: max(280px, 30vw);
 }
 
 input:focus {
@@ -182,4 +186,22 @@ button:hover {
 /* Set log in link styles */
 p > a {
     color: #4f622a;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+    }
+    .hero {
+        width: 100vw;
+        height: 500px;
+    }
+    .hero-logo {
+        margin-top: 0;
+    }
+
+    .footer {
+        position: relative;
+    }
 }
